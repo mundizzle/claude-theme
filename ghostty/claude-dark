@@ -1,10 +1,10 @@
 # Claude Dark Theme for Ghostty
 # A warm, elegant dark theme inspired by Claude's aesthetic
 
-background = #282320
+background = #2D2926
 foreground = #F5F1ED
 cursor-color = #D97757
-cursor-text = #282320
+cursor-text = #2D2926
 selection-background = #5C3A2E
 selection-foreground = #F5F1ED
 

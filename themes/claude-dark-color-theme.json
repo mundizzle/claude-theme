@@ -2,7 +2,7 @@
   "name": "Claude Dark",
   "type": "dark",
   "colors": {
-    "editor.background": "#282320",
+    "editor.background": "#2D2926",
     "editor.foreground": "#F5F1ED",
     "editor.lineHighlightBackground": "#332E2A",
     "editor.selectionBackground": "#D9775744",
@@ -21,16 +21,16 @@
     "editorIndentGuide.activeBackground": "#443F3A",
     "editorBracketMatch.background": "#D9775744",
     "editorBracketMatch.border": "#D97757",
-    "editorGutter.background": "#282320",
+    "editorGutter.background": "#2D2926",
 
-    "activityBar.background": "#282320",
+    "activityBar.background": "#2D2926",
     "activityBar.foreground": "#D97757",
     "activityBar.inactiveForeground": "#A8A29E",
     "activityBarBadge.background": "#D97757",
     "activityBarBadge.foreground": "#FFFFFF",
     "activityBar.border": "#3A3530",
 
-    "sideBar.background": "#282320",
+    "sideBar.background": "#2D2926",
     "sideBar.foreground": "#D6D3D1",
     "sideBarTitle.foreground": "#F5F1ED",
     "sideBarSectionHeader.background": "#332E2A",
@@ -45,37 +45,37 @@
     "list.inactiveSelectionBackground": "#D9775744",
     "list.highlightForeground": "#D97757",
 
-    "statusBar.background": "#282320",
+    "statusBar.background": "#2D2926",
     "statusBar.foreground": "#A8A29E",
     "statusBar.debuggingBackground": "#D97757",
     "statusBar.debuggingForeground": "#FFFFFF",
     "statusBar.noFolderBackground": "#332E2A",
     "statusBar.border": "#3A3530",
 
-    "titleBar.activeBackground": "#282320",
+    "titleBar.activeBackground": "#2D2926",
     "titleBar.activeForeground": "#F5F1ED",
-    "titleBar.inactiveBackground": "#282320",
+    "titleBar.inactiveBackground": "#2D2926",
     "titleBar.inactiveForeground": "#78716C",
     "titleBar.border": "#3A3530",
 
-    "tab.activeBackground": "#282320",
+    "tab.activeBackground": "#2D2926",
     "tab.activeForeground": "#F5F1ED",
-    "tab.inactiveBackground": "#282320",
+    "tab.inactiveBackground": "#2D2926",
     "tab.inactiveForeground": "#78716C",
     "tab.border": "#3A3530",
     "tab.activeBorder": "#D97757",
     "tab.activeBorderTop": "#D97757",
 
-    "editorGroupHeader.tabsBackground": "#282320",
+    "editorGroupHeader.tabsBackground": "#2D2926",
     "editorGroup.border": "#3A3530",
 
-    "panel.background": "#282320",
+    "panel.background": "#2D2926",
     "panel.border": "#3A3530",
     "panelTitle.activeBorder": "#D97757",
     "panelTitle.activeForeground": "#F5F1ED",
     "panelTitle.inactiveForeground": "#78716C",
 
-    "terminal.background": "#282320",
+    "terminal.background": "#2D2926",
     "terminal.foreground": "#F5F1ED",
     "terminal.ansiBlack": "#332E2A",
     "terminal.ansiRed": "#EF4444",
@@ -141,7 +141,7 @@
     "peekView.border": "#D97757",
     "peekViewTitle.background": "#332E2A",
     "peekViewResult.background": "#332E2A",
-    "peekViewEditor.background": "#282320"
+    "peekViewEditor.background": "#2D2926"
   },
   "tokenColors": [
     {
