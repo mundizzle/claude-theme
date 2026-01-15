@@ -79,7 +79,7 @@
     "terminal.foreground": "#F5F1ED",
     "terminal.ansiBlack": "#332E2A",
     "terminal.ansiRed": "#EF4444",
-    "terminal.ansiGreen": "#34D399",
+    "terminal.ansiGreen": "#8A9B8A",
     "terminal.ansiYellow": "#FBBF24",
     "terminal.ansiBlue": "#E9A23B",
     "terminal.ansiMagenta": "#A78BFA",
@@ -87,7 +87,7 @@
     "terminal.ansiWhite": "#D6D3D1",
     "terminal.ansiBrightBlack": "#78716C",
     "terminal.ansiBrightRed": "#F87171",
-    "terminal.ansiBrightGreen": "#6EE7B7",
+    "terminal.ansiBrightGreen": "#A8BDA8",
     "terminal.ansiBrightYellow": "#FCD34D",
     "terminal.ansiBrightBlue": "#E9B865",
     "terminal.ansiBrightMagenta": "#C4B5FD",
@@ -127,7 +127,7 @@
 
     "gitDecoration.modifiedResourceForeground": "#FBBF24",
     "gitDecoration.deletedResourceForeground": "#EF4444",
-    "gitDecoration.untrackedResourceForeground": "#34D399",
+    "gitDecoration.untrackedResourceForeground": "#8A9B8A",
     "gitDecoration.ignoredResourceForeground": "#78716C",
     "gitDecoration.conflictingResourceForeground": "#D97757",
 
@@ -154,7 +154,7 @@
     {
       "scope": ["string", "string.quoted", "string.template"],
       "settings": {
-        "foreground": "#34D399"
+        "foreground": "#9CAF9C"
       }
     },
     {
@@ -264,7 +264,7 @@
     {
       "scope": ["markup.inline.raw", "markup.fenced_code"],
       "settings": {
-        "foreground": "#34D399"
+        "foreground": "#9CAF9C"
       }
     },
     {

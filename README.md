@@ -55,7 +55,7 @@ A warm, elegant color theme inspired by Claude's aesthetic. Available for VS Cod
 | 13 | Accent | Hover | `#E8896B` | Button hover |
 | 14 | Semantic | Error | `#EF4444` | Error text |
 | 15 | Semantic | Warning | `#FBBF24` | Warning text |
-| 16 | Semantic | Success | `#34D399` | Success, strings |
+| 16 | Syntax | Strings | `#9CAF9C` | Muted sage green |
 | 17 | Syntax | Functions | `#E9A23B` | Function names |
 | 18 | Syntax | Types | `#5EADA4` | Types, classes |
 | 19 | Syntax | Variables | `#A78BFA` | Variables |
