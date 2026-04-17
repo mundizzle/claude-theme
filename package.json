@@ -1,14 +1,26 @@
 {
   "name": "claude-theme",
   "displayName": "Claude Theme",
+  "publisher": "mundizzle",
   "description": "A color theme based on Claude's native app UI",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mundizzle/claude-theme"
+  },
   "engines": {
     "vscode": "^1.60.0"
   },
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "package": "vsce package --no-dependencies",
+    "reinstall": "npm run package && code --install-extension claude-theme-$npm_package_version.vsix --force"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.0.0"
+  },
   "contributes": {
     "themes": [
       {
