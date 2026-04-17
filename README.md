@@ -1,13 +1,13 @@
 # Claude Theme
 
-A color theme based on Claude's native app UI. Available for VS Code and Ghostty terminal.
+A color theme aligned with Anthropic's official brand palette. Available for VS Code and Ghostty terminal.
 
 ![Claude Theme Dark](.github/images/claude-dark.png)
 ![Claude Theme Light](.github/images/claude-light.png)
 
 ## Features
 
-- Color palette extracted from Claude's actual UI
+- Colors match Anthropic's official brand palette (Orange, Blue, Green on warm neutrals)
 - Light and dark variants
 - Consistent colors across VS Code and Ghostty terminal
 
@@ -15,13 +15,12 @@ A color theme based on Claude's native app UI. Available for VS Code and Ghostty
 
 | Role | Hex | Color |
 |------|-----|-------|
-| Keywords | `#CC7C5E` | Terracotta |
-| Strings | `#7A937A` | Sage |
-| Functions | `#B38B2D` | Amber |
-| Types | `#4A9B92` | Teal |
-| Variables | `#9080B0` | Lavender |
-| Numbers | `#C08830` | Gold |
-| Links | `#4682D5` | Blue |
+| Keywords | `#d97757` | Orange (brand) |
+| Strings | `#788c5d` | Green (brand) |
+| Links | `#6a9bcc` | Blue (brand) |
+| Functions / Numbers | `#c08c3a` | Amber |
+| Types | `#6a9b91` | Teal |
+| Variables | `#9588a8` | Lavender |
 | Error | `#DC2626` | Red |
 
 ## Background Colors
@@ -29,18 +28,18 @@ A color theme based on Claude's native app UI. Available for VS Code and Ghostty
 ### Light Theme
 | Color | Hex | Usage |
 |-------|-----|-------|
-| Warm Cream | `#FAF9F5` | Main background |
-| White | `#FFFFFF` | Cards, inputs |
-| Border | `#F0EEE7` | Dividers |
-| Primary Text | `#3D3D3A` | Body text |
+| Warm Cream | `#faf9f5` | Main background |
+| White | `#ffffff` | Cards, inputs |
+| Light Gray | `#e8e6dc` | Borders, dividers |
+| Primary Text | `#141413` | Body text |
 
 ### Dark Theme
 | Color | Hex | Usage |
 |-------|-----|-------|
-| Charcoal | `#262624` | Main background |
-| Elevated | `#30302E` | Cards, panels |
-| Deep | `#141413` | Inputs |
-| Primary Text | `#C2C0B7` | Body text |
+| Dark | `#141413` | Main background |
+| Elevated | `#262624` | Cards, panels |
+| Deep | `#0a0a09` | Inputs |
+| Primary Text | `#faf9f5` | Body text |
 
 ## VS Code Installation
 

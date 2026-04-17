@@ -1,29 +1,29 @@
 # Claude Light Theme for Ghostty
-# Based on Claude's actual UI colors
+# Aligned to Anthropic's official brand palette
 
-background = #FAF9F5
-foreground = #3D3D3A
-cursor-color = #CC7C5E
-cursor-text = #FAF9F5
-selection-background = #E8C4B8
-selection-foreground = #3D3D3A
+background = #faf9f5
+foreground = #141413
+cursor-color = #d97757
+cursor-text = #faf9f5
+selection-background = #f0d5c6
+selection-foreground = #141413
 
 # Normal colors (0-7)
-palette = 0=#3D3D3A
+palette = 0=#141413
 palette = 1=#DC2626
-palette = 2=#7A937A
-palette = 3=#C08830
-palette = 4=#4682D5
-palette = 5=#9080B0
-palette = 6=#4A9B92
-palette = 7=#E0DED8
+palette = 2=#788c5d
+palette = 3=#c08c3a
+palette = 4=#6a9bcc
+palette = 5=#9588a8
+palette = 6=#6a9b91
+palette = 7=#e8e6dc
 
 # Bright colors (8-15)
-palette = 8=#73726D
+palette = 8=#6b6a65
 palette = 9=#EF4444
-palette = 10=#8FA88F
-palette = 11=#D4A050
-palette = 12=#6B9ADF
-palette = 13=#A898C8
-palette = 14=#5FAFA5
-palette = 15=#FAF9F5
+palette = 10=#8ca075
+palette = 11=#d0a052
+palette = 12=#88b3dc
+palette = 13=#a99cba
+palette = 14=#7fb0a6
+palette = 15=#faf9f5
