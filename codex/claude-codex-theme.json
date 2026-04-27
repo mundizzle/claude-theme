@@ -1,0 +1,70 @@
+{
+  "name": "Claude for Codex",
+  "description": "Codex app appearance themes aligned with the Claude Theme palette.",
+  "format": "codex-theme-v1",
+  "source": {
+    "app": "/Applications/Codex.app/Contents/Resources/app.asar",
+    "sharePrefix": "codex-theme-v1:",
+    "inspectedKeys": [
+      "variant",
+      "codeThemeId",
+      "theme.accent",
+      "theme.contrast",
+      "theme.fonts",
+      "theme.ink",
+      "theme.opaqueWindows",
+      "theme.semanticColors",
+      "theme.surface"
+    ]
+  },
+  "themes": {
+    "light": {
+      "name": "Claude Light for Codex",
+      "shareString": "codex-theme-v1:{\"variant\":\"light\",\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#d97757\",\"contrast\":45,\"fonts\":{\"code\":\"Source Code Pro\",\"ui\":null},\"ink\":\"#141413\",\"opaqueWindows\":false,\"semanticColors\":{\"diffAdded\":\"#788c5d\",\"diffRemoved\":\"#DC2626\",\"skill\":\"#6a9bcc\"},\"surface\":\"#faf9f5\"}}",
+      "payload": {
+        "variant": "light",
+        "codeThemeId": "codex",
+        "theme": {
+          "accent": "#d97757",
+          "contrast": 45,
+          "fonts": {
+            "code": "Source Code Pro",
+            "ui": null
+          },
+          "ink": "#141413",
+          "opaqueWindows": false,
+          "semanticColors": {
+            "diffAdded": "#788c5d",
+            "diffRemoved": "#DC2626",
+            "skill": "#6a9bcc"
+          },
+          "surface": "#faf9f5"
+        }
+      }
+    },
+    "dark": {
+      "name": "Claude Dark for Codex",
+      "shareString": "codex-theme-v1:{\"variant\":\"dark\",\"codeThemeId\":\"codex\",\"theme\":{\"accent\":\"#d97757\",\"contrast\":55,\"fonts\":{\"code\":\"Source Code Pro\",\"ui\":null},\"ink\":\"#faf9f5\",\"opaqueWindows\":false,\"semanticColors\":{\"diffAdded\":\"#788c5d\",\"diffRemoved\":\"#EF4444\",\"skill\":\"#6a9bcc\"},\"surface\":\"#141413\"}}",
+      "payload": {
+        "variant": "dark",
+        "codeThemeId": "codex",
+        "theme": {
+          "accent": "#d97757",
+          "contrast": 55,
+          "fonts": {
+            "code": "Source Code Pro",
+            "ui": null
+          },
+          "ink": "#faf9f5",
+          "opaqueWindows": false,
+          "semanticColors": {
+            "diffAdded": "#788c5d",
+            "diffRemoved": "#EF4444",
+            "skill": "#6a9bcc"
+          },
+          "surface": "#141413"
+        }
+      }
+    }
+  }
+}

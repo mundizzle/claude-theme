@@ -1,6 +1,6 @@
 # Claude Theme
 
-A color theme aligned with Anthropic's official brand palette. Available for VS Code and Ghostty terminal.
+A color theme aligned with Anthropic's official brand palette. Available for VS Code, Ghostty terminal, Zed, and Codex.
 
 ![Claude Theme Dark](.github/images/claude-dark.png)
 ![Claude Theme Light](.github/images/claude-light.png)
@@ -9,9 +9,24 @@ A color theme aligned with Anthropic's official brand palette. Available for VS 
 
 - Colors match Anthropic's official brand palette (Orange, Blue, Green on warm neutrals)
 - Light and dark variants
-- Consistent colors across VS Code and Ghostty terminal
+- Consistent colors across VS Code, Ghostty terminal, and Zed
+- Codex app theme import strings
 
-## Accent Palette
+## Palette
+
+Official Anthropic brand anchors:
+
+| Role | Hex | Color |
+|------|-----|-------|
+| Primary Accent | `#d97757` | Orange |
+| Secondary Accent | `#6a9bcc` | Blue |
+| Tertiary Accent | `#788c5d` | Green |
+| Dark | `#141413` | Primary text and dark backgrounds |
+| Light | `#faf9f5` | Light backgrounds and text on dark |
+| Mid Gray | `#b0aea5` | Secondary elements |
+| Light Gray | `#e8e6dc` | Subtle backgrounds |
+
+Supporting syntax colors:
 
 | Role | Hex | Color |
 |------|-----|-------|
@@ -90,6 +105,52 @@ theme = dark:claude-dark,light:claude-light
 ```
 
 Restart Ghostty to apply.
+
+## Zed Installation
+
+```bash
+# Create themes directory
+mkdir -p ~/.config/zed/themes
+
+# Copy theme family file
+cp zed/claude.json ~/.config/zed/themes/
+```
+
+Restart Zed or reopen the theme selector, then select **Claude Light** or **Claude Dark**.
+
+Zed also supports mode-based theme selection in `~/.config/zed/settings.json`:
+
+```json
+{
+  "theme": {
+    "mode": "system",
+    "light": "Claude Light",
+    "dark": "Claude Dark"
+  }
+}
+```
+
+## Codex Installation
+
+The Codex app uses share strings for importing Appearance themes. The Claude themes in `codex/` follow the app's `codex-theme-v1:` import format and keep the built-in Codex code theme selected.
+
+### Import Light Theme
+
+1. Open Codex Settings
+2. Go to **Appearance**
+3. Under **Light theme**, choose **Import**
+4. Paste the contents of `codex/claude-codex-light.txt`
+5. Choose **Import theme**
+
+### Import Dark Theme
+
+1. Open Codex Settings
+2. Go to **Appearance**
+3. Under **Dark theme**, choose **Import**
+4. Paste the contents of `codex/claude-codex-dark.txt`
+5. Choose **Import theme**
+
+The readable source payloads and generated share strings live in `codex/claude-codex-theme.json`.
 
 ## License
 
